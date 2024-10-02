@@ -1,0 +1,45 @@
+.display-options {
+    position: relative;
+}
+
+.display-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow-down {
+    font-size: 10px;
+}
+
+.options-dropdown {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+}
